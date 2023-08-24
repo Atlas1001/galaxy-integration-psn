@@ -19,12 +19,12 @@ Supports PSN-owned game list & last played date. PSN API has changed several tim
 **Note: NPSSO tokens do eventually expire, you will have to eventually repeat steps 4 to 7 again. Sadly no way around it.**
 
 ## GOG Integration Levels
-Built-in Search: Yes, main repo only.
-Install & Launch: No, may be able to be reverse-engineered eventually via Remote Play API.
-Achievements: No, ever since the [discontinuation of My PlayStation](https://www.playstationlifestyle.net/2021/06/02/myplaystation-ps-vita-messaging-service-end/) back in 2021 achievements have been unsupported. Hopefully, they'll return one day.
-Game Time: Yes, only time last played.
-Friend Recommendation: No.
-Friend Presence: No.
+* Built-in Search: Yes, main repo only.
+* Install & Launch: No, may be able to be reverse-engineered eventually via Remote Play API.
+* Achievements: No, ever since the [discontinuation of My PlayStation](https://www.playstationlifestyle.net/2021/06/02/myplaystation-ps-vita-messaging-service-end/) back in 2021 achievements have been unsupported. Hopefully, they'll return one day.
+* Game Time: Yes, only time last played.
+* Friend Recommendation: No.
+* Friend Presence: No.
 
 ## Credits
 
