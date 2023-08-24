@@ -16,7 +16,7 @@ Supports PSN-owned game list & last played date. PSN API has changed several tim
 7. Go to line 43 and insert your token within `{"npsso":""`
 8. Restart/reopen GOG Galaxy 2.0 and connect PSN again. It should automatically log into your PSN account via your NPSSO token.
 9. Enjoy having PSN somewhat returned to GOG Galaxy 2.0.
-**Note: NPSSO tokens do eventually expire, you will have to eventually repeat steps 4 to 7 again. Sadly no way around it.**
+- **Note: NPSSO tokens do eventually expire, you will have to eventually repeat steps 4 to 7 again. Sadly no way around it.**
 
 ## GOG Integration Levels
 * Built-in Search: Yes, main repo only.
