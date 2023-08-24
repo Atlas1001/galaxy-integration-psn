@@ -1,9 +1,6 @@
-# This applies fixes I found to a GitHub repo for simplicity. I claim none of this code.
-
+## This applies fixes I found to a GitHub repo for simplicity. I claim none of this code.
 **This is simply a bandaid fix of the main repo, it is not meant to be a replacement for it. I'm not a maintainer, I can barely code. This is just what I know some of it may be incorrect.**
-
 **Fixes applied [Restore Last Played date](https://github.com/FriendsOfGalaxy/galaxy-integration-psn/pull/39) using info from [this comment](https://github.com/FriendsOfGalaxy/galaxy-integration-psn/pull/39#issuecomment-1146746932) & [a switch from web-based OAuth to using NPSSO token](https://github.com/FriendsOfGalaxy/galaxy-integration-psn/issues/40#issuecomment-1251114176).**
-
 **These fixes aren't always guaranteed to work. Sony is basically constantly changing the PSN private internal API from which most things are reverse-engineered. Things may change.**
 
 Supports PSN-owned game list & last played date. PSN API has changed several times over the last few years when this code was initially first created. [Several](https://github.com/andshrew/PlayStation-Trophies/blob/master/docs/APIv2.md) [trophy APIs](https://github.com/achievements-app/psn-api) have been created since then but they'd likely require nearly a full rewrite to be integrated into the GOG Galaxy integration.
@@ -11,11 +8,8 @@ Supports PSN-owned game list & last played date. PSN API has changed several tim
 ## Authenticating with NPSSO token
 1. Close GOG Galaxy 2.0 if it is opened.
 2. Replace what is currently within your GOG PSN folder with the files in this repo. More specifically the `src` folder.
-
-Windows: `%localappdata%\GOG.com\Galaxy\plugins\installed`
-
-MacOS: `~/Library/Application Support/GOG.com/Galaxy/plugins/installed`
-
+- Windows: `%localappdata%\GOG.com\Galaxy\plugins\installed`
+- MacOS: `~/Library/Application Support/GOG.com/Galaxy/plugins/installed`
 4. Sign in to a PlayStation site such as the [PlayStation home page](https://playstation.com) or the [PlayStation Store](https://store.playstation.com).
 5. Go to [https://ca.account.sony.com/api/v1/ssocookie](https://ca.account.sony.com/api/v1/ssocookie) and copy the code contained within `{"npsso":"12345678901234567890"}`, so for an example `12345678901234567890`.
 6. Open plugin.py with a code editor of your choice. I personally prefer [Visual Studio Code](https://code.visualstudio.com)
