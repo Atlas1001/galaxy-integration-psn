@@ -1,7 +1,7 @@
 ## This applies fixes I found to a GitHub repo for simplicity. I claim none of this code.
-**This is simply a bandaid fix of the main repo, it is not meant to be a replacement for it. I'm not a maintainer, I can barely code. This is just what I know some of it may be incorrect.**
-**Fixes applied [Restore Last Played date](https://github.com/FriendsOfGalaxy/galaxy-integration-psn/pull/39) using info from [this comment](https://github.com/FriendsOfGalaxy/galaxy-integration-psn/pull/39#issuecomment-1146746932) & [a switch from web-based OAuth to using NPSSO token](https://github.com/FriendsOfGalaxy/galaxy-integration-psn/issues/40#issuecomment-1251114176).**
-**These fixes aren't always guaranteed to work. Sony is basically constantly changing the PSN private internal API from which most things are reverse-engineered. Things may change.**
+- **This is simply a bandaid fix of the main repo, it is not meant to be a replacement for it. I'm not a maintainer, I can barely code. This is just what I know some of it may be incorrect.**
+- **Fixes applied [Restore Last Played date](https://github.com/FriendsOfGalaxy/galaxy-integration-psn/pull/39) using info from [this comment](https://github.com/FriendsOfGalaxy/galaxy-integration-psn/pull/39#issuecomment-1146746932) & [a switch from web-based OAuth to using NPSSO token](https://github.com/FriendsOfGalaxy/galaxy-integration-psn/issues/40#issuecomment-1251114176).**
+- **These fixes aren't always guaranteed to work. Sony is basically constantly changing the PSN private internal API from which most things are reverse-engineered. Things may change.**
 
 Supports PSN-owned game list & last played date. PSN API has changed several times over the last few years when this code was initially first created. [Several](https://github.com/andshrew/PlayStation-Trophies/blob/master/docs/APIv2.md) [trophy APIs](https://github.com/achievements-app/psn-api) have been created since then but they'd likely require nearly a full rewrite to be integrated into the GOG Galaxy integration.
 
