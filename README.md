@@ -10,7 +10,7 @@ Supports PSN-owned game list & last played date. PSN API has changed several tim
 2. Replace what is currently within your GOG PSN folder with the files in this repo. More specifically the `src` folder.
 - Windows: `%localappdata%\GOG.com\Galaxy\plugins\installed`
 - MacOS: `~/Library/Application Support/GOG.com/Galaxy/plugins/installed`
-4. Sign in to a PlayStation site such as the [PlayStation home page](https://playstation.com) or the [PlayStation Store](https://store.playstation.com).
+4. Sign in to a PlayStation site such as the [PlayStation home page](https://playstation.com) or the [PlayStation Store](https://store.playstation.com). Selecting "Trust This Browser" when logging in will likely considerably increase the life of your NPSSO token.
 5. Go to [https://ca.account.sony.com/api/v1/ssocookie](https://ca.account.sony.com/api/v1/ssocookie) and copy the code contained within `{"npsso":"12345678901234567890"}`, so for an example `12345678901234567890`.
 6. Open plugin.py with a code editor of your choice. I personally prefer [Visual Studio Code](https://code.visualstudio.com)
 7. Go to line 43 and insert your token within `{"npsso":""`
@@ -33,3 +33,4 @@ I've based this partially on work done by others:
 * https://github.com/Tustin/psn-php
 * https://github.com/mgp25/psn-api
 * https://github.com/adrianzhang/wechat-psn-backend
+* https://github.com/FriendsOfGalaxy/galaxy-integration-psn
